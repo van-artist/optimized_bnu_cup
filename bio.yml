@@ -1,0 +1,17 @@
+# bio.yml
+name: bio
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.12
+  - pandas
+  - numpy
+  - scipy
+  - samtools
+  - polars
+  - fastqc
+  - htslib
+  - pip:
+      - cutseq
